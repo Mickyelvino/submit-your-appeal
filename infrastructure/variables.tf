@@ -34,3 +34,7 @@ variable "node_environment" {
 variable "sya_hostname" {
   default = "localhost"
 }
+
+variable "max_capacity" {
+  default = "3"
+}

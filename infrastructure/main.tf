@@ -1,11 +1,12 @@
 module "submit-your-appeal-frontend" {
-  source       = "git@github.com:contino/moj-module-webapp?ref=master"
+  source       = "git@github.com:contino/moj-module-webapp?ref=capacity-param"
   product      = "${var.product}-frontend"
   location     = "${var.location}"
   env          = "${var.env}"
   ilbIp        = "${var.ilbIp}"
   is_frontend  = true
   subscription = "${var.subscription}"
+  max_capacity = "${var.max_capacity}"
 
 
   app_settings = {
