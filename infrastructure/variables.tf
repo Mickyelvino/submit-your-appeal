@@ -36,5 +36,5 @@ variable "sya_hostname" {
 }
 
 variable "max_capacity" {
-  default = "1"
+  default = "3"
 }
